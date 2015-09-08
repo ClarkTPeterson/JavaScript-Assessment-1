@@ -9,7 +9,7 @@ for(var i=0;i<sentence.length;i++){
 	}
 }
 sentence = sentence.join("")
-sentence;
+sentence
 
 
 
