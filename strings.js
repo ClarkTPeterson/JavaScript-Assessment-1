@@ -1,6 +1,16 @@
  //1. Given the following sentence: Change all of the lowercase letters i, in reference to yourself, to the uppercase I
  // careful not to uppercase the i in the word pair
 var sentence = 'When i went to the mall i bought a pair of shoes.';
+sentence = sentence.split("")
+for(var i=0;i<sentence.length;i++){
+	if(sentence[i]==="i"){
+	    if(sentence[i-1]===" "&&sentence[i+1]===" ")
+		sentence[i]="I";
+	}
+}
+sentence = sentence.join("")
+sentence;
+
 
 
 //2. The history of JavaScript is interesting but how many times does the letter a appear? Find a way to count both upper and lower case A's
