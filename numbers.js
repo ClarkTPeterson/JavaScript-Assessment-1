@@ -7,6 +7,15 @@ sum;
 
 //2. write a loop that will log only numbers divisible by 3 between 20 - 100
 
+var numbers=[];
+for(var i = 20;i<100;i++){
+	if((i % 3) === 0){
+		numbers.push(i);
+	}
+}
+numbers;
+
+
 
 //3. find the class average given the following test scores
 
